@@ -1,5 +1,8 @@
 # OoTxMM-Item-Sanity-Checklist
 Place for suggestions
+
+
+
 Instructions for use:
 1. Open the link
 2. Make a copy of the spreadsheet
