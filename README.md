@@ -1,6 +1,8 @@
 # OoTxMM-Item-Sanity-Checklist (Rework)
 ***THIS IS HIGHLY EXPERIMENTAL***
 
+***PLEASE USE THE GOOGLE SPREADSHEET FOR NOW***
+
 ### Currently Supported Sanities
 - Pot-sanity
 - Grass-sanity
