@@ -1,0 +1,13 @@
+.fix-top {
+    position: fixed;
+    background-color: rgb(0, 255, 255, 0.2);
+    top: 0;
+    left: 0;
+    right: 0;
+    /* display: block; */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    z-index: 100;
+    border-bottom: 2px solid black;
+}

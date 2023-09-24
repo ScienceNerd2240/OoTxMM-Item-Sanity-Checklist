@@ -1,0 +1,53 @@
+.game {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    background-color: lightpink;
+    font-size: 20px;
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    padding-top: 10;
+    margin-bottom: 0;
+}
+
+.area-sanities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    margin-left: 550px;
+    margin-right: 350px;
+    font-size: 20px;
+}
+
+.area-sanities select {
+    font-size: 20px;
+}
+
+/* .area-sanities label {
+    
+} */
+
+.sanity, .region {
+    margin: 5px 30px;
+    /* display: grid;
+    grid-template-columns: ; */
+}
+
+.drop-name {
+    margin-bottom: 5px;
+}
+
+/* .sanity-options {
+
+} */
+
+.display-options {
+    background-color: lightgreen;
+}

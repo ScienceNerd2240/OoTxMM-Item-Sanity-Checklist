@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sanity Checklist Prototype</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/main-header.css">
+        <link rel="stylesheet" href="styles/main-checklist.css">
+        <link rel="stylesheet" href="styles/main-options.css">
+    </head>
+
+    <body>
+        <header class="fix-top">
+            <h1 style="text-align: center;">OOTxMM Randomizer - Sanity-Checklist</h1>
+        </header>
+
+        <main>
+            <section class="display-options">
+                <input type="checkbox"> Hide completed categories
+                <input type="checkbox"> Hide completed checks
+            </section>
+
+            <section class="sanity-options">
+                <div class="game">
+                    <div>
+                        <label>OoT</label>
+                        <input type="radio" name="game" checked>
+                    </div>
+                    
+                    <div>
+                        <label>MM</label>
+                        <input type="radio" name="game">
+                    </div>
+                </div>
+
+                <div class="area-sanities">
+                    <div class="sanity">
+                        <div class="drop-name">
+                            <label for="sanity">Sanity Type:</label>
+                            <div class="hint">
+                                <label>?</label>
+                                <div class="tooltip">
+                                    <p><strong>Scrubs: </strong>Each Deku Scrub that do a one-time trade</p>
+                                    <p><strong>Shops: </strong>Each Shop has a total of 8 completely random items</p>
+                                    <p><strong>Cows: </strong>Each Shop will provide a random Item when <strong>Epona&apos;s Song</strong> has been played</p>
+                                    <p><strong>Grass: </strong>Each bundle of Grass will have a random Item on the first destruction</p>
+                                    <p><strong>Pots: </strong>Each Pot will have a random Item on the first destruction</p>
+                                    <p><strong>Crates: </strong>Each wooden Crate will have a random Item on the first destruction</p>
+                                </div>
+                            </div>
+                        </div>
+                        <select name="sanity" id="sanity">
+                            <option value="scrub" selected>Scrubs</option>
+                            <option value="shop">Shops</option>
+                            <option value="cow">Cows</option>
+                            <option value="pots">Pots</option>
+                            <option value="grass">Grass</option>
+                            <option value="grass" disabled>Crates (Coming Soon)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="region">
+                        <div class="drop-name">
+                            <label for="region">Region:</label>
+                            <div class="hint">
+                                <label>?</label>
+                                <div class="tooltip">
+                                    <p><strong>Overworld: </strong>Every (major) area that is accessible and not a dungeon or Grotto. (Includes sub-areas such as houses)</p>
+                                    <p><strong>Dungeons: </strong>Everything that can be found within a Dungeon. (Ex.: Deku Tree, Great Bay Temple)</p>
+                                    <p><strong>Grotto: </strong>Everything in that can be found in a Grotto. (Holes in the ground which can require <strong>Bombs</strong> or <strong>Song of Time</strong> to be exposed. They usually contain at least a GS (OoT) or a chest.)</p>
+                                    <p><strong>Ganon/Moon: </strong>Everything that can be found at Ganon's Castle or The Moon, depednding on the Game you have selected. (Needs to be done exclusively with JavaScript)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <select name="region" id="region">
+                            <option value="overworld" selected>Overworld</option>
+                            <option value="dungeon">Dungeons</option>
+                            <option value="grotto">Grottos</option>
+                            <option value="ganon-moon" disabled>Ganon/Moon</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <section class="area-checklist">
+                <section class="check-category" id="cateogry-1">
+                    <p class="name-category">List of Checks 1</p>
+                    <div class="check">
+                        <input type="checkbox"> Try to do this properly in Java Script
+                    </div>
+                    <div class="check">
+                        <input type="checkbox"> Try to do this properly in Java Script
+                    </div>
+                    <div class="check">
+                        <input type="checkbox"> Try to do this properly in Java Script as soon as fucking possible this text will soon overflow and we will see how it affects the line like holy shit this is one fucking long line of text right here
+                    </div>
+                    <div class="check">
+                        <input type="checkbox"> Try to do this properly in Java Script
+                    </div>
+                    <div class="check">
+                        <input type="checkbox"> Try to do this properly in Java Script
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <label>Try to do this properly in Java Script as soon as fucking possible this text will soon overflow and we will see how it affects the line like holy shit this is one fucking long line of text right here</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <label>Try to do this properly in Java Script</label>
+                    </div>
+                </section>
+
+                <section class="check-category" id="cateogry-2">
+                    <p class="name-category">List of Checks 2</p>
+                    <div class="check">
+                        <input type="checkbox"> Try to do this properly in Java Script
+                    </div>
+                    <div class="check">
+                        <input type="checkbox"> Try to do this properly in Java Script
+                    </div>
+                    <div class="check">
+                        <input type="checkbox"> Try to do this properly in Java Script as soon as fucking possible this text will soon overflow and we will see how it affects the line like holy shit this is one fucking long line of text right here
+                    </div>
+                    <div class="check">
+                        <input type="checkbox"> Try to do this properly in Java Script
+                    </div>
+                    <div class="check">
+                        <input type="checkbox"> Try to do this properly in Java Script
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <label>Try to do this properly in Java Script as soon as fucking possible this text will soon overflow and we will see how it affects the line like holy shit this is one fucking long line of text right here</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <label>Try to do this properly in Java Script</label>
+                    </div>
+                </section>
+                
+            </section>
+        </main>
+    </body>
+</html>
