@@ -1,0 +1,32 @@
+.area-checklist {
+    display: grid;
+    /* justify-content: space-between; */
+    align-items: top;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(248, 84, 248, 0.541);
+    padding-left: 150px;
+    padding-right: 150px;
+    row-gap: 20px;
+    column-gap: 60px;
+}
+
+/* a single checkbox plus text */
+.check {
+    font-size: 22px;
+    /*  display: flex; */
+    align-items: center;
+}
+
+.check input[type=checkbox] {
+    /* width: 140px; */
+    height: 20px;
+    width: 20px;
+    accent-color: red;
+}
+
+.name-category {
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}

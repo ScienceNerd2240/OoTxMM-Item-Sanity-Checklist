@@ -1,0 +1,39 @@
+body {
+    padding-top : 100px;
+}
+
+/* .input[type=checkbox]:checked {
+    font-weight: bold;
+} */
+
+.hint {
+    margin: 5px;
+    color: white;
+    background-color: grey;
+    padding: 2px 7px 2px 6px;
+    border: 1px solid black;
+    border-radius: 200px;
+    font-size: 60%;
+    cursor: help;
+    position: relative;
+    display: inline;
+}
+
+.tooltip {
+    pointer-events: none;
+    color: white;
+    background-color: rgb(70, 60, 60);
+    z-index: 1;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 420px;
+    padding: 0px 10px;
+    margin: 0px 0px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hint:hover .tooltip {
+    opacity: 1;
+}
